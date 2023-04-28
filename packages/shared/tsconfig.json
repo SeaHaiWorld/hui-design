@@ -25,14 +25,14 @@
     "skipLibCheck": true,
     "typeRoots": ["./node_modules/@types", "global.d.ts"],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./src/*"]
     }
   },
   "include": [
     "./src/**/*.ts",
     "./src/**/*.tsx",
-    "packages/shared/test/**/*.ts",
-    "packages/shared/test/**/*.tsx",
+    "test/**/*.ts",
+    "test/**/*.tsx",
     "./typings/*.ts",
     "./global.d.ts"
   ],

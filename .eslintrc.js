@@ -20,6 +20,7 @@ module.exports = {
   ],
   plugins: [
     '@zaihui/eslint-plugin-react',
+    'plugin:react/jsx-runtime',
   ],
   env: {
     node: false,
